@@ -1,0 +1,19 @@
+{
+  "name": "calculadora",
+  "version": "1.0.0",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsc && node dist/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "...",
+    "@types/readline-sync": "...",
+    "typescript": "..."
+  },
+  "dependencies": {
+    "readline-sync": "..."
+  }
+}
